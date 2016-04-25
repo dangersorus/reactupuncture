@@ -1,0 +1,27 @@
+{
+  "name": "reactupuncture",
+  "version": "1.0.0",
+  "description": "application to manage accupuncture charts. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dangersorus",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dangersorus/reactupuncture.git"
+  },
+  "keywords": [
+    "patient",
+    "management"
+  ],
+  "bugs": {
+    "url": "https://github.com/dangersorus/reactupuncture/issues"
+  },
+  "homepage": "https://github.com/dangersorus/reactupuncture",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-stormpath": "^3.1.2"
+  }
+}
