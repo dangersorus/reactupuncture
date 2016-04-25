@@ -9,10 +9,10 @@ export default class MasterPage extends React.Component {
     render() {
         return (
             <DocumentTitle title='Reactup'>
-        <div className='MasterPage'>
-          <Header />
-          { this.props.children }
-        </div>
+             <div className='MasterPage'>
+              <Header />
+                { this.props.children }
+            </div>
       </DocumentTitle>
             );
     }

@@ -12,9 +12,12 @@ export default class IndexPage extends React.Component {
         <div className="jumbotron">
           <p>
             <NotAuthenticated>
-            This is the starting project using React and Stormpath for Reactupuncture.<br/>
+            This is the starting project for Reactupuncture.<br/>
             Please <LoginLink />.
               </NotAuthenticated>
+              <Authenticated>
+              No new messages!
+              </Authenticated>
           </p>
         </div>
       </div>
