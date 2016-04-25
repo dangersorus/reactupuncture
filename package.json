@@ -1,27 +1,35 @@
 {
-  "name": "reactupuncture",
   "version": "1.0.0",
-  "description": "application to manage accupuncture charts. ",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "dangersorus",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:dangersorus/reactupuncture.git"
-  },
-  "keywords": [
-    "patient",
-    "management"
-  ],
-  "bugs": {
-    "url": "https://github.com/dangersorus/reactupuncture/issues"
-  },
-  "homepage": "https://github.com/dangersorus/reactupuncture",
+  "name": "reactupuncture",
+  "description": "",
+  "author": "Dangersorus",
+  "license": "Apache-2.0",
   "dependencies": {
-    "express": "^4.13.4",
-    "express-stormpath": "^3.1.2"
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-runtime": "^6.3.19",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.3",
+    "express-stormpath": "^3.0.0",
+    "firebase": "^2.4.2",
+    "globals": "^8.16.0",
+    "history": "^1.17.0",
+    "morgan": "^1.6.1",
+    "react": "^0.14.5",
+    "react-document-title": "^2.0.1",
+    "react-dom": "^0.14.5",
+    "react-router": "^1.0.3",
+    "react-stormpath": "^1.0.0",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
+    "webpack-dev-middleware": "^1.4.0"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
